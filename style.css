@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    max-width: 1328px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.header__container--links{
+    width: 100%;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-link{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    text-align: left;
+    color: #84F173;
+}
+
+.link{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    text-align: left;
+    color: black;
+}
+
+.ecology{
+    width: 100%;
+    max-width: 1328px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.ecology__container{
+    max-width: 520px;
+}
+
+.ecology__title{
+    font-family: Quicksand;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #2E2E2E;
+    margin-bottom: 24px;
+}
+
+.color{
+    font-family: Quicksand;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #84F173;
+}
+
+.ecology__text{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #6D6D6D;
+    width: 395px;
+    margin-bottom: 24px;
+}
+
+.ecology__button{
+    width: Hug (117px)px;
+    height: Hug (40px)px;
+    top: 473px;
+    left: 200px;
+    padding: 10px 30px 10px 30px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #84F173;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.planet{
+    width: 100%;
+    max-width: 1328px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.planet__title{
+    font-family: Quicksand;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    width: 490px;
+    margin-bottom: 24px;
+}
+
+.planet__text{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #6D6D6D;
+    width: 388px;
+    margin-bottom: 24px;
+}
+
+.planet__li{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #6D6D6D;
+    margin-bottom: 15px;
+}
+
+.photo-margin{
+    margin-right: 15px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-block {
+    position: relative;
+    width: 100%;
+    max-width: 1348px;
+    height: 748px;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.play-button i {
+    color: white;
+    font-size: 40px;
+}
+
+.play-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.achievements{
+    width: 100%;
+    max-width: 1348px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievements__container{
+    display: flex;
+    align-items: center;
+}
+
+.achievements__container__number{
+    font-family: Quicksand;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: left;
+    color: #84F173;
+    margin-right: 10px;
+}
+
+.achievements__container__text{
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #2E2E2E;
+    width: 119px;
+}
+
+.adviсe{
+    width: 100%;
+    max-width: 1124px;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 250px;
+    
+}
+
+.adviсe__container{
+    width: 450px;
+}
+
+.adviсe__container--title{
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    color: #2E2E2E;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.adviсe__container--text{
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.5px;
+    text-align: left;
+    color: #2E2E2E;
+}
+
+.subscribe{
+    width: 100%;
+    max-width: 903px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subscribe__title{
+    font-family: Quicksand;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.text{
+    color: #84F173;
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+}
+  
+.subscribe-input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 25px 416px 25px 50px ;
+    border-radius: 50px;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+}
+  
+.subscribe-button {
+    background-color: #7EF37E;
+    border: none;
+    border-radius: 50px;
+    padding: 25px 58px;
+    color: white;
+    cursor: pointer;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+}
+  
+.subscribe-input::placeholder {
+    color: #aaa;
+}
+  
+.subscribe-button:hover {
+    background-color: #6ade6a;
+}
+
+footer{
+    background-color: #434343;
+    margin-top: 100px;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1325px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 0;
+}
+
+.footer__container{
+    width: 217px;
+    display: flex;
+    justify-content: space-between;
+}
